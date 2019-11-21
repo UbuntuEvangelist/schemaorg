@@ -2,12 +2,12 @@ source 'https://rubygems.org'
 
 ruby "2.4.0"
 
-gem 'linkeddata'
+gem 'linkeddata', '>= 2.2.0'
 gem 'json-ld-preloaded'
 gem 'rspec'
 gem 'rake'
-gem 'nokogiri'
-gem 'equivalent-xml'
+gem 'nokogiri', '>= 1.10.5'
+gem 'equivalent-xml', '>= 0.6.0'
 
 group :debug do
   gem 'byebug'
