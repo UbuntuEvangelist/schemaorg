@@ -62,7 +62,7 @@ GEM
     nokogiri (1.7.0.1)
       mini_portile2 (~> 2.1.0)
     public_suffix (2.0.5)
-    rake (12.0.0)
+    rake (13.0.1)
     rdf (2.2.3)
       hamster (~> 3.0)
       link_header (~> 0.0, >= 0.0.8)
@@ -151,11 +151,11 @@ DEPENDENCIES
   json-ld-preloaded
   linkeddata
   nokogiri
-  rake
+  rake (>= 12.3.3)
   rspec
 
 RUBY VERSION
    ruby 2.4.0p0
 
 BUNDLED WITH
-   1.13.7
+   1.17.3
